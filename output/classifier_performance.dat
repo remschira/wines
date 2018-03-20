@@ -1,0 +1,509 @@
+::::::logistic regression::::::
+
+ 
+::: with C = 0.001000 :::::: 
+
+
+accuracy = 0.534091 
+confusion m. trace = 282 
+cross val score = 0.571695 
+
+ 
+::: with C = 0.010000 :::::: 
+
+
+accuracy = 0.562500 
+confusion m. trace = 297 
+cross val score = 0.596958 
+
+ 
+::: with C = 0.100000 :::::: 
+
+
+accuracy = 0.575758 
+confusion m. trace = 304 
+cross val score = 0.607199 
+
+ 
+::: with C = 1.000000 :::::: 
+
+
+accuracy = 0.571970 
+confusion m. trace = 302 
+cross val score = 0.604418 
+
+ 
+::: with C = 10.000000 :::::: 
+
+
+accuracy = 0.573864 
+confusion m. trace = 303 
+cross val score = 0.602540 
+
+ 
+::: with C = 100.000000 :::::: 
+
+
+accuracy = 0.571970 
+confusion m. trace = 302 
+cross val score = 0.602540 
+
+ 
+::: with C = 1000.000000 :::::: 
+
+
+accuracy = 0.571970 
+confusion m. trace = 302 
+cross val score = 0.601614 
+
+::::::Decision Tree::::::
+
+ 
+::: with max_depth = 2 :::::: 
+
+
+accuracy = 0.524621 
+confusion m. trace = 277 
+cross val score = 0.554934 
+
+ 
+::: with max_depth = 5 :::::: 
+
+
+accuracy = 0.543561 
+confusion m. trace = 287 
+cross val score = 0.606150 
+
+ 
+::: with max_depth = 8 :::::: 
+
+
+accuracy = 0.547348 
+confusion m. trace = 289 
+cross val score = 0.599480 
+
+ 
+::: with max_depth = 10 :::::: 
+
+
+accuracy = 0.570076 
+confusion m. trace = 301 
+cross val score = 0.582845 
+
+ 
+::: with max_depth = 15 :::::: 
+
+
+accuracy = 0.554924 
+confusion m. trace = 293 
+cross val score = 0.603205 
+
+ 
+::: with max_depth = 30 :::::: 
+
+
+accuracy = 0.560606 
+confusion m. trace = 296 
+cross val score = 0.584490 
+
+ 
+::: with max_depth = 50 :::::: 
+
+
+accuracy = 0.556818 
+confusion m. trace = 294 
+cross val score = 0.597663 
+
+ 
+::: with max_depth = 70 :::::: 
+
+
+accuracy = 0.570076 
+confusion m. trace = 301 
+cross val score = 0.596715 
+
+ 
+::: with max_depth = 100 :::::: 
+
+
+accuracy = 0.571970 
+confusion m. trace = 302 
+cross val score = 0.587356 
+
+ 
+::: with max_depth = 150 :::::: 
+
+
+accuracy = 0.553030 
+confusion m. trace = 292 
+cross val score = 0.599427 
+
+::::::random forest::::::
+
+ 
+::: with max_depth = 2 :::::: 
+
+
+accuracy = 0.554924 
+confusion m. trace = 293 
+cross val score = 0.592324 
+
+ 
+::: with max_depth = 5 :::::: 
+
+
+accuracy = 0.590909 
+confusion m. trace = 312 
+cross val score = 0.628740 
+
+ 
+::: with max_depth = 8 :::::: 
+
+
+accuracy = 0.636364 
+confusion m. trace = 336 
+cross val score = 0.650069 
+
+ 
+::: with max_depth = 10 :::::: 
+
+
+accuracy = 0.649621 
+confusion m. trace = 343 
+cross val score = 0.664172 
+
+ 
+::: with max_depth = 15 :::::: 
+
+
+accuracy = 0.645833 
+confusion m. trace = 341 
+cross val score = 0.671672 
+
+ 
+::: with max_depth = 30 :::::: 
+
+
+accuracy = 0.655303 
+confusion m. trace = 346 
+cross val score = 0.672598 
+
+ 
+::: with max_depth = 50 :::::: 
+
+
+accuracy = 0.645833 
+confusion m. trace = 341 
+cross val score = 0.668758 
+
+ 
+::: with max_depth = 70 :::::: 
+
+
+accuracy = 0.659091 
+confusion m. trace = 348 
+cross val score = 0.662321 
+
+ 
+::: with max_depth = 100 :::::: 
+
+
+accuracy = 0.660985 
+confusion m. trace = 349 
+cross val score = 0.671689 
+
+ 
+::: with max_depth = 150 :::::: 
+
+
+accuracy = 0.664773 
+confusion m. trace = 351 
+cross val score = 0.667077 
+
+::::::Adaboost::::::
+
+ 
+::: with n_estimators = 1 :::::: 
+
+
+accuracy = 0.524621 
+confusion m. trace = 277 
+cross val score = 0.554934 
+
+ 
+::: with n_estimators = 2 :::::: 
+
+
+accuracy = 0.524621 
+confusion m. trace = 277 
+cross val score = 0.556777 
+
+ 
+::: with n_estimators = 4 :::::: 
+
+
+accuracy = 0.518939 
+confusion m. trace = 274 
+cross val score = 0.554921 
+
+ 
+::: with n_estimators = 10 :::::: 
+
+
+accuracy = 0.518939 
+confusion m. trace = 274 
+cross val score = 0.553025 
+
+ 
+::: with n_estimators = 50 :::::: 
+
+
+accuracy = 0.518939 
+confusion m. trace = 274 
+cross val score = 0.553025 
+
+ 
+::: with n_estimators = 100 :::::: 
+
+
+accuracy = 0.518939 
+confusion m. trace = 274 
+cross val score = 0.511904 
+
+::::::gradient boosting::::::
+
+ 
+::: with max_depth = 1 :::::: 
+
+
+accuracy = 0.587121 
+confusion m. trace = 310 
+cross val score = 0.605348 
+
+ 
+::: with max_depth = 2 :::::: 
+
+
+accuracy = 0.617424 
+confusion m. trace = 326 
+cross val score = 0.623115 
+
+ 
+::: with max_depth = 3 :::::: 
+
+
+accuracy = 0.630682 
+confusion m. trace = 333 
+cross val score = 0.638921 
+
+ 
+::: with max_depth = 5 :::::: 
+
+
+accuracy = 0.626894 
+confusion m. trace = 331 
+cross val score = 0.644506 
+
+ 
+::: with max_depth = 6 :::::: 
+
+
+accuracy = 0.619318 
+confusion m. trace = 327 
+cross val score = 0.654840 
+
+ 
+::: with max_depth = 10 :::::: 
+
+
+accuracy = 0.636364 
+confusion m. trace = 336 
+cross val score = 0.642641 
+
+ 
+::: with max_depth = 15 :::::: 
+
+
+accuracy = 0.611742 
+confusion m. trace = 323 
+cross val score = 0.619142 
+
+ 
+::: with max_depth = 20 :::::: 
+
+
+accuracy = 0.611742 
+confusion m. trace = 323 
+cross val score = 0.607975 
+
+ 
+::: with max_depth = 30 :::::: 
+
+
+accuracy = 0.613636 
+confusion m. trace = 324 
+cross val score = 0.607023 
+
+ 
+::: with max_depth = 50 :::::: 
+
+
+accuracy = 0.600379 
+confusion m. trace = 317 
+cross val score = 0.608914 
+
+ 
+::: with max_depth = 100 :::::: 
+
+
+accuracy = 0.606061 
+confusion m. trace = 320 
+cross val score = 0.607966 
+
+::::::Linear SVM::::::
+
+ 
+::: with C = 0.001000 :::::: 
+
+
+accuracy = 0.543561 
+confusion m. trace = 287 
+cross val score = 0.586633 
+
+ 
+::: with C = 0.010000 :::::: 
+
+
+accuracy = 0.556818 
+confusion m. trace = 294 
+cross val score = 0.596023 
+
+ 
+::: with C = 0.020000 :::::: 
+
+
+accuracy = 0.560606 
+confusion m. trace = 296 
+cross val score = 0.590402 
+
+ 
+::: with C = 0.040000 :::::: 
+
+
+accuracy = 0.562500 
+confusion m. trace = 297 
+cross val score = 0.591354 
+
+ 
+::: with C = 0.060000 :::::: 
+
+
+accuracy = 0.560606 
+confusion m. trace = 296 
+cross val score = 0.592276 
+
+ 
+::: with C = 0.080000 :::::: 
+
+
+accuracy = 0.560606 
+confusion m. trace = 296 
+cross val score = 0.592276 
+
+ 
+::: with C = 0.100000 :::::: 
+
+
+accuracy = 0.560606 
+confusion m. trace = 296 
+cross val score = 0.592276 
+
+ 
+::: with C = 1.000000 :::::: 
+
+
+accuracy = 0.558712 
+confusion m. trace = 295 
+cross val score = 0.592276 
+
+ 
+::: with C = 5.000000 :::::: 
+
+
+accuracy = 0.562500 
+confusion m. trace = 297 
+cross val score = 0.596940 
+
+::::::SVM rbf::::::
+
+ 
+::: with C = 0.001000 :::::: 
+
+
+accuracy = 0.410985 
+confusion m. trace = 217 
+cross val score = 0.433254 
+
+ 
+::: with C = 0.010000 :::::: 
+
+
+accuracy = 0.410985 
+confusion m. trace = 217 
+cross val score = 0.433254 
+
+ 
+::: with C = 0.020000 :::::: 
+
+
+accuracy = 0.486742 
+confusion m. trace = 257 
+cross val score = 0.465835 
+
+ 
+::: with C = 0.040000 :::::: 
+
+
+accuracy = 0.553030 
+confusion m. trace = 292 
+cross val score = 0.584755 
+
+ 
+::: with C = 0.060000 :::::: 
+
+
+accuracy = 0.558712 
+confusion m. trace = 295 
+cross val score = 0.591328 
+
+ 
+::: with C = 0.080000 :::::: 
+
+
+accuracy = 0.558712 
+confusion m. trace = 295 
+cross val score = 0.594114 
+
+ 
+::: with C = 0.100000 :::::: 
+
+
+accuracy = 0.558712 
+confusion m. trace = 295 
+cross val score = 0.597853 
+
+ 
+::: with C = 1.000000 :::::: 
+
+
+accuracy = 0.598485 
+confusion m. trace = 316 
+cross val score = 0.616576 
+
+ 
+::: with C = 5.000000 :::::: 
+
+
+accuracy = 0.607955 
+confusion m. trace = 321 
+cross val score = 0.621254 

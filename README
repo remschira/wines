@@ -1,0 +1,70 @@
+This systematic approach is borrowed from
+Applied Machine Learning Process by Jason Brownlee
+''The Systematic Process For Working Through  Predictive Modeling Problems That 
+Delivers Above Average Results''
+https://machinelearningmastery.com/process-for-working-through-machine-learning-problems/
+
+
+1.: Define the problem
+'''
+Step 1. What is the problem?
+--Informally, Can one predict the quality of a wine by physicochemical attributes?
+--What attributes are most important in determining quality?
+--Formally, Task = Predict wine quality based on attributes
+	    Experience = A wine quality dataset with attributes and scores
+	    Performance = The number of wine scores correctly predicted out of all wine data.	    
+Step 2. Why does the problem need to be solved?
+--Primarily, to practice/learn regression analysis techniques.
+--To look at a wine label and be able to predict how good it is. (i.e. knowledgeable wine buyer)
+Step 3. How would I solve the problem?
+--Plot quality vs. various attributes and fit curve to data
+'''
+
+
+2.: Prepare Data
+'''
+Preface. Summarize attributes and visualization with scatter plots and histograms.
+Step 1. Data Selection
+--What data is available? The dataset to be studied is the red wine data from
+"http://archive.ics.uci.edu/ml/datasets/Wine+Quality"
+--What data is missing? The dataset appears complete in the sense that each wine
+has each attribute measured and has been scored
+--What data can be removed? I plan to answer this by plotting the importance feature plot obtained by
+training a Random Forest classifier and plotting the importance of each feature.
+Step 2. Data Preprocessing
+--I will visualize each attribute and the quality score with 1-dimensional histograms
+--I will also visualize the correlations between attributes with a heat-map plot
+Step 3. Data Transformation
+--I will scale the data using sklearn scaling so that all attributed are on the same scale
+--attribute decomposition? attribute aggregation?
+--I will use Principal Component Analysis to visualize the projections of the data
+in lower dimensions
+--I will expirement will outlier detection methods (elliptic envelope and isolation forest)
+'''
+
+
+3.: Spot Check Algorithms
+'''
+--I have a set of machine learning algorithms that I will apply the data to
+--I will measure the performance of each with sklearn's accuracy score, confusion matrix,
+and performing cross validation. Cross validation allows the model to be trained multiple
+times with different subsets of the data and tested on the remaining data.
+--Statistical signifinance tests? box-plots?
+'''
+
+4.: Improve Results
+'''
+--Algorithm tuning? I will play with various hyperparameters of the top-performing
+classifier found in "3.: Spot Check Algorithms" to get the most out of it
+--Ensemble Methods? Combining predictions made by multiple models?
+--Extreme Feature Engineering?
+
+5.: Present Results
+
+
+THINGS I CAN DO WITH DATA:
+make histograms (of each feature or predictor) and of the response
+make a heat map
+
+
+
